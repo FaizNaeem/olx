@@ -1,0 +1,23 @@
+.card{
+    margin: 50px;
+}
+.s [input = "text"]{
+    margin-left: 100px;
+
+}
+.icon{
+    margin-right: 100px;
+}
+#p{
+    margin-left: 10%;
+}
+.fe{
+    font-size: 20px;
+    color: rgb(240, 240, 108);
+}
+.a{
+color: #000;
+border: none;
+outline: none;
+    margin: 10px;
+}

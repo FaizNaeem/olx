@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olx</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="./index.css">
+<link rel="icon" href="./pro.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./olx.css"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title" id="title">Card title</h5>
+            <p class="card-text" id="discription">Some quick example text to build on the card title and make up the
+                bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary" id="btn">Go somewhere</a>
+        </div>
+        <button onclick="transform()">change</button>
+    </div>
+    <img src="banner.png" max-width="50%" width="50%" height="50%"> -->
+  <!-- PROJECT -->
+    <!-- <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b> OLX</b></a>
+         <button> <i class="fa fa-search" aria-hidden="true"></i></button>
+          <select id="m" class="mdb-select md-form" searchable="Search here..">
+            <option value="" disabled selected>Choose your map</option>
+            <option value="1">Pakistan</option>
+            <option value="2">Germany</option>
+            <option value="3">France</option>
+            <option value="3">Poland</option>
+            <option value="3">Japan</option>
+          </select>
+    
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" id="maker" placeholder="Find Cars, Mobiles Phones and More..." aria-label="Search">
+            <button class="btn btn-outline-success" id="make" type="submit"> <b>+Search</b></button>
+          </form>
+        </div>
+      </nav> -->
+      <!-- LAST -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>Olx</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown -->
+                <!-- </a> -->
+               <img src="./i.png" class="icon" width="25px" />
+                
+                <select id="kuch" >
+                  
+                  <option id="p"> Pakistan</option>
+                  <option>Austalia</option>
+                  <option>Amreca</option>
+                  <option>cenada</option>
+                  <option>Suadia Arabic</option>
+                </select>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+              </li>
+            </ul>
+            <form class="d-flex">
+              
+              <input class="form-control me-2 s"  id="center" type="search" placeholder="Search" aria-label="Search" >
+              <!-- <button class="btn btn-outline-primary" id="color" type="submit"><b>+sell</b></button> -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  
+                +sell
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ALL CATEGORIES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul
+          </div>
+        </div>
+      </nav> -->
+      <div class="dropdown show">
+        <a class="btn btn-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <b> ALL CATEGORIES</b>
+        </a>
+<!--       
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div> -->
+        
+        <a class="a" href="#"> Mobiles Phones </a>
+        
+        <a  class="a" href="#"> Car</a>
+        
+        <a  class="a" href="#"> Motorcycle </a>
+        
+        <a  class="a"  href="#"> Home </a>
+      </div>
+      <img src="./banner1.jpg" id="projectpicture" >
+      
+    <div class="carousel-item ">
+      
+      <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="dil.png" class="di" width="8%" height="20px">
+        <img src="./hp.jpg" class="card-img-top vm" alt="...">
+        <div class="card-body">
+          <p class="card-text"><b>Rs 90,0000</b><br><small>  </small></p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="dil.png" class="di" width="8%" height="20px">
+        <img src="5.jpeg" class="card-img-top vm" alt="...">
+        <div class="card-body">
+          <p class="card-text"><b>Rs 1,0000</b><br><small>   </small></p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="dil.png" class="di" width="8%" height="20px">
+        <img src="car.png" class="card-img-top vm" alt="...">
+        <div class="card-body">
+          <p class="card-text"><b>Rs 50,000</b><br><small> </small></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+ 
+<h3 class="ref">LAST Search</h3>
+
+
+<div class="row ">
+  <div class="card " style="width: 18rem;">
+    <!-- <img src="dil.png" class="di" width="8%" height="20px"> -->
+    <img src="hp.jpg" class="card-img-top vm" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>Rs 90,0000</b><br><small> 1 generatio</small></p>
+    </div>
+  </div>
+
+  <div class="card " style="width: 18rem;">
+    <!-- <img src="dil.png" class="di" width="8%" height="20px"> -->
+    <img src="sofa.jpg" class="card-img-top vm" height="200px" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>Rs 20,000</b><br><small>Sofa </small></p>
+    </div>
+  </div>
+
+  <div class="card " style="width: 18rem;">
+    <!-- <img src="dil.png" class="di" width="8%" height="20px"> -->
+    <img src="headphone.jpg" class="card-img-top vm" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>7,00</b><br><small>Head phone</small></p>
+    </div>
+  </div>
+
+</div>
+ 
+
+
+
+<div class="row ">
+  <div class="card " style="width: 18rem;">
+    <b class="fe">Feature</b>
+
+   <!-- <img src="dil.png" class="di" width="8%" height="20px"> -->
+    <img id="center" src="./1..jpg" class="card-img-top vm" alt="...">
+    <div class="card-body">
+     
+      <p class="card-text"><b>Rs 10,00</b><br><small>cycle</small></p>
+    </div>
+  </div>
+
+  <div class="card " style="width: 18rem;">
+    <b class="fe">Feature</b>
+   
+    <img src="./2.jpg" class="card-img-top vm" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>Rs 10,000</b><br><small> Model : Infinix</small></p>
+    </div>
+  </div>
+
+  <div class="card " style="width: 18rem;">
+    <b class="fe">Feature</b>
+    
+    <img src="./2..webp" class="card-img-top vm" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>Rs 30,000</b><br><small> Sumsung</small></p>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="row ">
+  <div class="card " style="width: 18rem;">
+    <b class="fe">Feature</b>
+    <!-- <img src="dil.png" class="di" width="8%" height="20px"> -->
+    <img src="14.jpg" class="card-img-top vm" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>Rs 5,00</b><br><small> Nike</small></p>
+    </div>
+  </div>
+
+  <div class="card " style="width: 18rem;">
+    <b class="fe">Feature</b>
+ 
+    <img src="house.jpg" class="card-img-top vm" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>Rs 50,000</b><br><small> Rent house</small></p>
+    </div>
+  </div>
+
+  <div class="card " style="width: 18rem;">
+    <b class="fe">Feature</b>
+  
+    <img src="./watch.jpg" class="card-img-top vm" alt="...">
+    <div class="card-body">
+      <p class="card-text"><b>Rs 2,000</b><br><small> Watch </small></p>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="i">
+
+<img src="https://statics.olx.com.pk/external/base/img/phone-app.webp" alt="OLX Footer Image" style="margin-left: 10%;">
+<b class="try">
+<p class="rp">I am a paid consultant to OLX and have created this draft article for independent review as per WP:COI rules. I am a frequent contributor to Wikipedia and try to abide by the Wikipedia five pillars WP:5p to the best of my ability. Please let me know if I can be of assistance, answer questions or do additional work.BC1278 (talk) 19:26, 8 October 2016 (UTC)BC1278</p> </b>
+</div>
+<!-- <div id="fulldiv">
+      <div class="card" style="width: 18rem;">
+        <img src="./2.jpg" height="250px" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <p class="card-text"> <b>Rs , 25,000</b></p> -->
+          <!-- <b>Rs. 5,0000</b> -->
+<!--         
+        </div>
+      </div>
+      <br/>
+      
+        <div class="card" style="width: 18rem; ">
+          <img src="./bike.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Rs. 55,000</b></p>
+            <p>Condition new</p>
+          </div>
+        </div>
+        <br/>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+       </div>
+      </div> -->
+        
+      <!-- </div>
+    <br/>
+      <div class="card" style="width: 18rem; ">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br/>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div> -->
+
+
+
+
+<!-- Button trigger modal -->
+<!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+<script>
+    //Work
+    // function Card(title, discription, btnTitle) {
+    //     this.title = title
+    //     this.discription = discription
+        // this.btnTitle = btnTitle
+    // }
+    //And
+
+//    function transform() { shoro
+        // var title = document.getElementById('title')
+        // var discription = document.getElementById('discription')
+        // var btn = document.getElementById('btn')
+
+        // var obj = new Card("new title", "new discription", "new btn title")
+        // var propery = obj.hasOwnProperty("title")
+        // console.log(propery)
+
+        // var arr = []
+        // for (var objKey in obj) {
+        //     arr.push(objKey)
+        // }
+        // console.log("objKey", arr)
+
+        // title.innerHTML = obj.title
+        // discription.innerHTML = obj.discription
+        // btn.innerHTML = obj.btnTitle
+        // window.history.go()
+        //  var monkeyWindow = window.open();
+        //  var windowContent = "<h1>Capuchin monkey</h1><img src= 'monkey.jpg'><p>The word capuchin derives from a  group of friars <br> named the Order of Friars Minor Capuchin who wear <br/> brown robes with large hoods covering their heads.</p > "
+        // monkeyWindow.document.write(windowContent);
+        // var curret = window.location.pathname
+        // window.open('calculator.html', 'faq', 'width=420,height=380,left=200,top=100')\
+
+            //var testPop = window.open("", "", "width=100,height=100");
+             //if (testPop === null) {
+              //   alert("Please disable your popup blocker.");
+                
+            //}khatam
+            //  testPop.close();
+            //}
+     </script>       
+
+
